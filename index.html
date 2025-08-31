@@ -1,0 +1,174 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alibaba - B2B Marketplace</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold text-danger" href="#">Alibaba</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav me-3">
+          <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#categories">Categories</a></li>
+          <li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
+          <li class="nav-item"><a class="nav-link" href="#partners">Partners</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+        <a href="#" class="btn btn-outline-danger me-2">Sign In</a>
+        <a href="#" class="btn btn-danger">Join Free</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section with Search -->
+  <section class="hero d-flex align-items-center">
+    <div class="container text-center">
+      <h1 class="fw-bold text-white display-5">Global Trade Starts Here</h1>
+      <p class="lead text-light mb-4">Search millions of products from verified suppliers worldwide</p>
+      <form class="d-flex justify-content-center search-bar">
+        <input type="text" class="form-control w-50 rounded-start" placeholder="What are you looking for...">
+        <button class="btn btn-danger rounded-end"><i class="bi bi-search"></i></button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Categories -->
+  <section id="categories" class="py-5">
+    <div class="container">
+      <h2 class="fw-bold text-center mb-4">Top Categories</h2>
+      <div class="row g-4">
+        <div class="col-6 col-md-3">
+          <div class="category-card text-center p-4 shadow-sm">
+            <i class="bi bi-phone display-4 text-danger"></i>
+            <h6 class="mt-2">Electronics</h6>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="category-card text-center p-4 shadow-sm">
+            <i class="bi bi-bag-check display-4 text-danger"></i>
+            <h6 class="mt-2">Fashion</h6>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="category-card text-center p-4 shadow-sm">
+            <i class="bi bi-gear display-4 text-danger"></i>
+            <h6 class="mt-2">Machinery</h6>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="category-card text-center p-4 shadow-sm">
+            <i class="bi bi-house-door display-4 text-danger"></i>
+            <h6 class="mt-2">Home & Garden</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Products -->
+  <section id="products" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="fw-bold text-center mb-4">Featured Products</h2>
+      <div class="row g-4">
+        <div class="col-md-3">
+          <div class="card product-card shadow-sm">
+            <img src="images/phone.jpg" class="card-img-top" alt="">
+            <div class="card-body">
+              <h6 class="card-title">Smartphone</h6>
+              <p class="text-danger fw-bold">$120 / piece</p>
+              <button class="btn btn-sm btn-danger w-100">Inquire Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card product-card shadow-sm">
+            <img src="images/shirt.jpg" class="card-img-top" alt="">
+            <div class="card-body">
+              <h6 class="card-title">T-Shirt</h6>
+              <p class="text-danger fw-bold">$5 / piece</p>
+              <button class="btn btn-sm btn-danger w-100">Inquire Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card product-card shadow-sm">
+            <img src="images/machine.jpg" class="card-img-top" alt="">
+            <div class="card-body">
+              <h6 class="card-title">Industrial Machine</h6>
+              <p class="text-danger fw-bold">$4500 / unit</p>
+              <button class="btn btn-sm btn-danger w-100">Inquire Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card product-card shadow-sm">
+            <img src="images/chair.jpg" class="card-img-top" alt="">
+            <div class="card-body">
+              <h6 class="card-title">Wooden Chair</h6>
+              <p class="text-danger fw-bold">$30 / piece</p>
+              <button class="btn btn-sm btn-danger w-100">Inquire Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Partners -->
+  <section id="partners" class="py-5">
+    <div class="container text-center">
+      <h2 class="fw-bold mb-4">Trusted By</h2>
+      <div class="row g-4 justify-content-center">
+        <div class="col-4 col-md-2"><img src="https://dummyimage.com/120x50/ddd/000&text=Brand+1" class="img-fluid"></div>
+        <div class="col-4 col-md-2"><img src="https://dummyimage.com/120x50/ddd/000&text=Brand+2" class="img-fluid"></div>
+        <div class="col-4 col-md-2"><img src="https://dummyimage.com/120x50/ddd/000&text=Brand+3" class="img-fluid"></div>
+        <div class="col-4 col-md-2"><img src="https://dummyimage.com/120x50/ddd/000&text=Brand+4" class="img-fluid"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="fw-bold text-center mb-4">Contact Us</h2>
+      <form class="row g-3 justify-content-center">
+        <div class="col-md-5">
+          <input type="text" class="form-control" placeholder="Your Name">
+        </div>
+        <div class="col-md-5">
+          <input type="email" class="form-control" placeholder="Your Email">
+        </div>
+        <div class="col-md-10">
+          <textarea class="form-control" rows="4" placeholder="Your Message"></textarea>
+        </div>
+        <div class="col-md-10">
+          <button type="submit" class="btn btn-danger w-100">Send Message</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-4 bg-dark text-white text-center">
+    <p class="mb-0">&copy; 2025 Alibaba.com | All Rights Reserved</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

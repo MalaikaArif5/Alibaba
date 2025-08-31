@@ -1,0 +1,60 @@
+/* General */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Hero */
+.hero {
+  background: url("https://img.freepik.com/free-photo/container-cargo-ship-sea_335224-1377.jpg") center/cover no-repeat;
+  min-height: 85vh;
+  position: relative;
+}
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.6);
+}
+.hero .container {
+  position: relative;
+  z-index: 2;
+}
+
+/* Search Bar */
+.search-bar input {
+  border: 2px solid #dc3545;
+  border-right: none;
+}
+.search-bar button {
+  border: 2px solid #dc3545;
+}
+
+/* Categories */
+.category-card {
+  border-radius: 12px;
+  background: white;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+.category-card:hover {
+  background: #dc3545;
+  color: white;
+  transform: translateY(-5px);
+}
+
+/* Products */
+.product-card img {
+  border-radius: 10px 10px 0 0;
+  height: 200px;
+  object-fit: cover;
+}
+.product-card:hover {
+  transform: translateY(-5px);
+  transition: 0.3s ease;
+}
+
+/* Footer */
+footer {
+  font-size: 14px;
+}
